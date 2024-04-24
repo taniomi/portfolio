@@ -2923,6 +2923,12 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		/* @taniomi header */
+		height: 100vh; /* Make the header fill the screen width */
+		display: flex;
+		justify-content: center; /* Center horizontally */
+		align-items: end; /* Align vertically */
+		/* --- */
 	}
 
 		#header a {
@@ -3509,4 +3515,10 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+/* @taniomi's mods*/
+	.svg-icon {
+		width: 150px; /* Ensure the SVG fills the container */
+		height: auto;
 	}
