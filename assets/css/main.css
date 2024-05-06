@@ -2387,7 +2387,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 85%;
 		}
 
 			.image.fit img {
@@ -3522,3 +3522,22 @@ input, select, textarea {
 		width: 150px; /* Ensure the SVG fills the container */
 		height: auto;
 	}
+
+	/* Navigation Bar */
+
+	#navbar {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: transparent;
+		padding: 20px;
+		z-index: 1000;
+	}
+
+	#navbar .icons li a:hover {
+		color: #ffe48d;
+	}
+
+	/* #navbar .icons .label {
+		display: none;
+	} */
